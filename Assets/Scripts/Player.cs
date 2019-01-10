@@ -20,6 +20,10 @@ public class Player : MonoBehaviour {
     }
     private void OnMouseDown() {
 
+        //*** Stop any movement
+        physics.velocity = Vector3.zero;
+        physics.angularVelocity = Vector3.zero;
+
         //*** Get mouse position in pixels
         Vector3 vMouse = Input.mousePosition;
 

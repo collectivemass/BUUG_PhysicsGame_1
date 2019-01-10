@@ -10,6 +10,7 @@ public class Game : MonoBehaviour {
 
     //*** Properties
     public Camera gameCamera;
+    public List<Ball> balls;
 
     //*** Variables
     
