@@ -9,6 +9,7 @@ public class Game : MonoBehaviour {
     public static Game instance;
 
     //*** Properties
+    public GameObject playerLine;
     public Camera gameCamera;
     public List<Ball> balls;
 

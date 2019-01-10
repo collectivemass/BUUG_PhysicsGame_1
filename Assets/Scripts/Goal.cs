@@ -7,11 +7,11 @@ public class Goal : MonoBehaviour {
     //*** Properties
 
     //*** Unity Messages
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider fancyBallPants) {
 
         //*** Check what collided
-        Ball oBall = other.gameObject.GetComponent<Ball>();
-        Player oPlayer = other.gameObject.GetComponent<Player>();
+        Ball oBall = fancyBallPants.gameObject.GetComponent<Ball>();
+        Player oPlayer = fancyBallPants.gameObject.GetComponent<Player>();
 
         //*** If it was the ball
         if(oBall != null) {
